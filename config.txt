@@ -1,0 +1,7 @@
+# Fichier de configuration
+
+# Clé API pour l'API The Movie Database
+api_key = 0c0e2f25660076cecabb64bac1c723fc
+
+# URL de l'API
+api_url = https://api.themoviedb.org/3/movie/now_playing?api_key=0c0e2f25660076cecabb64bac1c723fc

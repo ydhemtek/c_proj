@@ -21,7 +21,15 @@
         const char *release_date;
     } MovieInfo;
 
+    
+    
+    typedef struct {
+        char api_key[50];
+        char api_url[200];
+    } Config;
+
 int main(char **argv, int argc);
+Config read_config(const char *filename);
 char *perform_curl_request(const char *url);
 size_t write_callback(void *ptr, size_t size, size_t nmemb, void *userdata);
 char *perform_curl_request(const char *url);
